@@ -7,17 +7,19 @@
    </head>
    <body>
       <script src="script.js"></script>
-      <h1>Rock, Paper, Scissors!</h1>
-      <button type="button" id="rock_btn" onclick="game()">
+      <h1>Best of 5: Rock, Paper, Scissors!</h1>
+      <button type="button" id="rock_btn" onclick="playGame()">
          <img src="stone.png" height="250px" width="250px">
       </button>
-      <button type="button" id="paper_btn" onclick="game()">
+      <button type="button" id="paper_btn" onclick="playGame()">
          <img src="paper.png" height="250px" width="250px">
       </button>
-      <button type="button" id="scissor_btn" onclick="game()">
+      <button type="button" id="scissor_btn" onclick="playGame()">
          <img src="scissor.png" height="250px" width="250px">
       </button>
       <img src="question-mark.png" id="cpu_choice" height="250px" width="250px">
       <h2 id="outcome_msg"></h2>
+      <h2 id="score_msg"></h2>
+      <h1 id="end_msg"></h1>
    </body>
 </html>
